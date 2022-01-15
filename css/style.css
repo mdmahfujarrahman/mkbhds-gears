@@ -70,6 +70,9 @@ nav a {
     text-decoration: none;
     color: #eeeeee;
 }
+.btn i {
+    padding: 0 10px;
+}
 
 .btn:hover {
     background-color: #5a5a5a;
@@ -122,7 +125,6 @@ hr {
 .kits-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* gap: -50px; */
 }
 .kits {
     width: 329px;
@@ -160,13 +162,46 @@ hr {
 #more-item {
     margin-top: 30px;
 }
+#more-item i {
+    padding: 0 10px;
+}
+
 #more-item a {
     margin-top: 50px;
     position: relative;
-    left: 78rem;
+    left: 77rem;
     text-decoration: none;
     color: #e02c6d;
 }
 #more-item a:hover {
     color: #5a5a5a;
+}
+/* -----------
+   Footer section
+------------- */
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #0a0826;
+    color: #ffffff;
+}
+footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+footer p {
+    padding: 5px 0;
+    font-size: 14px;
+}
+#social-icon {
+    margin: 10px 0;
+}
+#social-icon a {
+    color: #ffffff;
+}
+.fab {
+    padding: 0 10px;
 }
