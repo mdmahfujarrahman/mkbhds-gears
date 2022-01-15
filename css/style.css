@@ -107,3 +107,53 @@ hr {
     border-radius: 1000px;
     margin-left: 20%;
 }
+/* -----------
+   kits section
+------------- */
+.kits-container {
+    margin: 80px 150px 50px 250px;
+}
+.kits-container h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.kits-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: -50px; */
+}
+.kits {
+    width: 329px;
+    height: 460px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    margin: 15px;
+}
+.kits img {
+    border-radius: 5px;
+}
+.kits-thumbnail {
+    width: 300px;
+    height: 256px;
+}
+.kits-details h3 {
+    font-size: 28px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.kits-details h6 {
+    font-size: 24px;
+    padding: 4px 0;
+    font-weight: normal;
+}
+.fa-star,
+.fa-star-half-alt {
+    font-size: 10px;
+}
+.filled,
+.haf-filled {
+    color: #fb8200;
+}
