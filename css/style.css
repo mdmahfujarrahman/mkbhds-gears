@@ -2,3 +2,38 @@
    fonts
 ------------- */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;400&family=Poppins:wght@400;500&family=Roboto+Slab:wght@300&family=Roboto:wght@500&family=Twinkle+Star&family=Ubuntu&display=swap");
+/* -----------
+   common style or utilities
+------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* -----------
+   nav
+------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 25px 120px 50px 120px;
+}
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+.nav-title {
+    font-size: 24px;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
