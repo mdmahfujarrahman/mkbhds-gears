@@ -31,9 +31,52 @@ nav a {
 }
 .nav-title {
     font-size: 24px;
+    font-weight: bold;
 }
 .nav-bar ul {
     display: flex;
     justify-content: space-between;
     gap: 25px;
+}
+/* -----------
+   main
+------------- */
+.container {
+    display: flex;
+    margin: 80px 120px 50px 120px;
+}
+.influencer-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+}
+.influencer-details h1 {
+    font-size: 52px;
+    word-wrap: normal;
+}
+.btn {
+    background-color: #e02c6d;
+    color: #eeeeee;
+    padding: 13px;
+    border-radius: 20px;
+    margin-top: 26px;
+    border: none;
+}
+.btn:hover {
+    background-color: #5a5a5a;
+}
+.influencer-images {
+    border: 2px solid #f7f0ff;
+    border-radius: 500px;
+    margin-left: 8rem;
+}
+.influencer-images img {
+    border-radius: 500px;
+    padding: 40px;
+}
+.influencer-images img:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out 0.1s;
 }
