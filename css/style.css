@@ -141,6 +141,9 @@ hr {
     width: 300px;
     height: 256px;
 }
+.kits-details {
+    text-align: left;
+}
 .kits-details h3 {
     font-size: 28px;
     margin-bottom: 0;
@@ -206,16 +209,17 @@ hr {
 }
 .platform-details {
     padding: 15px;
+    margin-left: 10px;
 }
-.platform-details h3,
-p {
+.platform-details h4 {
     padding: 10px;
 }
-.platform-details {
-    margin-left: 10px;
+.platform-details p {
+    padding: 10px;
 }
 .platform-btn {
     margin-left: 10px;
+    margin-top: 15px;
     border: none;
 }
 .platform-btn a {
@@ -224,6 +228,10 @@ p {
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
+}
+.platform-btn a:hover {
+    background-color: #5a5a5a;
+    transition: background-color 0.7s ease-in-out;
 }
 /* -----------
    Footer section
