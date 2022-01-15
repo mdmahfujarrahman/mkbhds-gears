@@ -36,7 +36,7 @@ nav a {
 .nav-bar ul {
     display: flex;
     justify-content: space-between;
-    gap: 25px;
+    gap: 35px;
 }
 /* -----------
    main
@@ -156,4 +156,17 @@ hr {
 .filled,
 .haf-filled {
     color: #fb8200;
+}
+#more-item {
+    margin-top: 30px;
+}
+#more-item a {
+    margin-top: 50px;
+    position: relative;
+    left: 78rem;
+    text-decoration: none;
+    color: #e02c6d;
+}
+#more-item a:hover {
+    color: #5a5a5a;
 }
