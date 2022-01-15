@@ -46,6 +46,7 @@ nav a {
 .container {
     display: flex;
     margin: 80px 120px 50px 120px;
+    justify-content: space-between;
 }
 .influencer-details {
     display: flex;
@@ -262,3 +263,6 @@ footer p {
 .fab {
     padding: 0 10px;
 }
+/* -----------
+   mobile
+------------- */
