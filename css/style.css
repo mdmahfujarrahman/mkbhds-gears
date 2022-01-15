@@ -18,9 +18,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0;
+    padding: 50px 30px;
     margin: auto;
-    max-width: 1665px;
+    max-width: 1605px;
 }
 nav li {
     list-style: none;
@@ -47,8 +47,11 @@ nav a {
 ------------- */
 .container {
     display: flex;
-    margin: 80px 120px 50px 120px;
+    padding: 50px 30px;
+    margin: auto;
+    max-width: 1605px;
     justify-content: space-between;
+    align-items: center;
 }
 .influencer-details {
     display: flex;
@@ -268,24 +271,20 @@ footer p {
 /* -----------
    tablet
 ------------- */
-@media only screen and (max-width: 992px) {
-    nav {
-        width: 90%;
-        margin: 0 30px;
-    }
+@media only screen and (max-width: 992px) and (min-width: 688px) {
     .logos {
         flex-wrap: wrap;
     }
     .container {
         width: 100%;
         margin: 0;
+        align-items: flex-start;
     }
     .influencer-details {
         width: 50%;
         text-align: left;
         margin: 0;
         padding: 0;
-        margin-left: 30px;
     }
     .influencer-images {
         width: 50%;
@@ -293,10 +292,8 @@ footer p {
         margin: 0;
     }
     .influencer-images img {
-        width: 80%;
-        padding: 0;
+        width: 100%;
         margin: 0;
-        margin-top: 50px;
     }
     #more-item {
         width: 90%;
@@ -326,7 +323,6 @@ footer p {
     nav {
         width: 100%;
         flex-direction: column;
-        margin: 50px 0;
     }
     .nav-title {
         width: 100%;
@@ -360,7 +356,7 @@ footer p {
         order: 1;
     }
     .btn {
-        width: 60%;
+        width: 6;
         margin: 10px auto;
     }
     .logos {
