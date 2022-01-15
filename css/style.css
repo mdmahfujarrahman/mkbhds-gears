@@ -18,8 +18,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    margin: 25px 120px 50px 120px;
+    margin: 50px 120px 50px 120px;
 }
 nav li {
     list-style: none;
@@ -53,7 +52,7 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 60%;
+    width: 55%;
 }
 .influencer-details h1 {
     font-size: 52px;
@@ -114,7 +113,9 @@ hr {
    kits section
 ------------- */
 .kits-container {
-    margin: 80px 150px 50px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .kits-container h3 {
     text-align: center;
@@ -128,7 +129,7 @@ hr {
 }
 .kits {
     width: 329px;
-    height: 460px;
+    height: 480px;
     border-radius: 5px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px;
@@ -169,12 +170,61 @@ hr {
 #more-item a {
     margin-top: 50px;
     position: relative;
-    left: 77rem;
+    left: 29rem;
     text-decoration: none;
     color: #e02c6d;
 }
 #more-item a:hover {
     color: #5a5a5a;
+}
+/* -----------
+   platfrom section
+------------- */
+.influence-platform {
+    display: flex;
+    flex-direction: column;
+    margin: 120px;
+}
+
+.influence-platform h2 {
+    text-align: center;
+    font-size: 38px;
+    margin: 50px;
+}
+.platfrom-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.platfrom {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-right: 20px;
+}
+.platform-thumbnail img {
+    border-radius: 10px;
+}
+.platform-details {
+    padding: 15px;
+}
+.platform-details h3,
+p {
+    padding: 10px;
+}
+.platform-details {
+    margin-left: 10px;
+}
+.platform-btn {
+    margin-left: 10px;
+    border: none;
+}
+.platform-btn a {
+    background-color: #e02c6d;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 /* -----------
    Footer section
