@@ -61,12 +61,16 @@ nav a {
 }
 .btn {
     background-color: #e02c6d;
-    color: #eeeeee;
     padding: 13px;
     border-radius: 100px;
     margin-top: 26px;
     border: none;
 }
+.btn a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
 .btn:hover {
     background-color: #5a5a5a;
     transition: background-color 0.7s ease-in-out;
